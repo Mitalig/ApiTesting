@@ -1,19 +1,11 @@
 package com.apitesting;
-
-import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.notNullValue;
-
 import java.io.PrintStream;
 import java.io.StringWriter;
-
 import org.apache.commons.io.output.WriterOutputStream;
-import org.junit.Before;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
-import io.restassured.filter.log.ErrorLoggingFilter;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
@@ -26,8 +18,7 @@ public class FiltersInRestAssured {
 	public  StringWriter responseWriter;
 	public  PrintStream  responseCapture;
 	
-	public  StringWriter errorWriter;
-	public  PrintStream  errorCapture;
+
 	
 	@BeforeClass
 	  public void setBaseUri () {
@@ -39,8 +30,7 @@ public class FiltersInRestAssured {
 	    responseWriter = new StringWriter();
 	    responseCapture = new PrintStream(new WriterOutputStream(responseWriter),true);
 
-	    errorWriter = new StringWriter();
-	    errorCapture = new PrintStream(new WriterOutputStream(errorWriter),true);
+	  
 
 		
 	  }
@@ -68,7 +58,6 @@ public class FiltersInRestAssured {
 	   
 	   System.out.println(requestWriter.toString());
 	   System.out.println(responseWriter.toString());
-	   System.err.println(errorWriter.toString());
 
 	  }	 
 	
