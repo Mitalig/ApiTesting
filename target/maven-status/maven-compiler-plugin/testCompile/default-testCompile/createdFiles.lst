@@ -1,0 +1,10 @@
+com/apitesting/ArraySizeUsingJsonPath.class
+POJOS/SendQuotes.class
+com/apitesting/UsingGroovyJsonPath.class
+com/apitesting/RoboTest.class
+com/apitesting/AssertionTest.class
+com/apitesting/GetRequestTest.class
+com/apitesting/JsonAssertLibrary.class
+com/apitesting/RootPath.class
+com/apitesting/ErrorFilterInRestAssured.class
+com/apitesting/FiltersInRestAssured.class

@@ -12,8 +12,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 
 public class ArraySizeUsingJsonPath {
-	
-	
+		
 	@BeforeClass
 	  public void setBaseUri () {
 
