@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3731" started-at="2017-12-23T06:38:42Z" finished-at="2017-12-23T06:38:45Z">
+  <suite name="Default suite" duration-ms="5480" started-at="2017-12-23T06:50:29Z" finished-at="2017-12-23T06:50:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3731" started-at="2017-12-23T06:38:42Z" finished-at="2017-12-23T06:38:45Z">
+    <test name="Default test" duration-ms="5480" started-at="2017-12-23T06:50:29Z" finished-at="2017-12-23T06:50:34Z">
       <class name="com.apitesting.GroovyJsonPathRegex">
-        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:com.apitesting.GroovyJsonPathRegex@a74868d]" name="setBaseUri" is-config="true" duration-ms="362" started-at="2017-12-23T12:08:42Z" finished-at="2017-12-23T12:08:42Z">
+        <test-method status="PASS" signature="setBaseUri()[pri:0, instance:com.apitesting.GroovyJsonPathRegex@a74868d]" name="setBaseUri" is-config="true" duration-ms="394" started-at="2017-12-23T12:20:29Z" finished-at="2017-12-23T12:20:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBaseUri -->
-        <test-method status="PASS" signature="findAnItemWithSalePrice()[pri:0, instance:com.apitesting.GroovyJsonPathRegex@a74868d]" name="findAnItemWithSalePrice" duration-ms="3347" started-at="2017-12-23T12:08:42Z" finished-at="2017-12-23T12:08:45Z">
+        <test-method status="PASS" signature="findAnItemWhoseNameEndsWithPlayer()[pri:0, instance:com.apitesting.GroovyJsonPathRegex@a74868d]" name="findAnItemWhoseNameEndsWithPlayer" duration-ms="3299" started-at="2017-12-23T12:20:29Z" finished-at="2017-12-23T12:20:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findAnItemWithSalePrice -->
+        </test-method> <!-- findAnItemWhoseNameEndsWithPlayer -->
+        <test-method status="PASS" signature="findAnItemWhoseNameStartsWithiPod()[pri:0, instance:com.apitesting.GroovyJsonPathRegex@a74868d]" name="findAnItemWhoseNameStartsWithiPod" duration-ms="1767" started-at="2017-12-23T12:20:32Z" finished-at="2017-12-23T12:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findAnItemWhoseNameStartsWithiPod -->
       </class> <!-- com.apitesting.GroovyJsonPathRegex -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
